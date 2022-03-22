@@ -1,6 +1,6 @@
 
 const InputData = document.querySelector('#validation-input');
-InputData.addEventListener('input', checkInputValue);
+InputData.addEventListener('blur', checkInputValue);
 
 function checkInputValue(event) {
     let inputSymbol = event.currentTarget.value;
